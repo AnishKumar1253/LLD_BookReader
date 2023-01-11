@@ -1,67 +1,13 @@
 # LLD_BookReader
 
-+-----------------------+
-|   OnlineReaderSystem  |
-+-----------------------+
-| -library: Library      |
-| -userManager: UserManager  |
-| -display: Display          |
-+-----------------------+
-| +getBook(): Book       |
-| +getUser(): User       |
-| +setBook(book: Book)   |
-| +setUser(user: User)   |
-+-----------------------+
+<img width="154" alt="image" src="https://user-images.githubusercontent.com/62415768/211761768-693a52b5-4f8b-4c9f-95bd-6f659f24b114.png"><br>
 
-+-----------------+
-|   Library       |
-+-----------------+
-| -books: HashMap |
-+-----------------+
-| +addBook(book: Book): boolean |
-| +removeBook(book: Book): boolean |
-| +findBook(bookId: int): Book |
-+-----------------+
+<img width="190" alt="image" src="https://user-images.githubusercontent.com/62415768/211761868-c15731d3-2f71-42cf-b822-94ff1ab8929d.png"><br>
 
-+-------------------+
-|   UserManager     |
-|-------------------|
-| -users: HashMap  |
-+-------------------+
-| +addUser(user: User): boolean    |
-| +removeUser(user: User): boolean |
-| +findUser(userId: int): User     |
-+-------------------+
+<img width="194" alt="image" src="https://user-images.githubusercontent.com/62415768/211761948-fb195e38-eb3e-41b1-b0bc-c3ca673aa86f.png"><br>
 
-+-------------+
-|   Display    |
-+-------------+
-| -book: Book  |
-| -user: User  |
-| -pageNumber: int |
-+-------------+
-| +nextPage(): void   |
-| +previousPage(): void |
-| +refreshPage(): void |
-| +displayUserInfo(): void |
-| +displayBookInfo(): void |
-+-------------+
+<img width="153" alt="image" src="https://user-images.githubusercontent.com/62415768/211762043-c35781fa-8d00-4573-8643-73e4f30d4164.png"><br>
 
-+---------+
-|   User  |
-+---------+
-| -id: int  |
-| -name: String |
-+---------+
-| +User(id: int, name: String) |
-+---------+
+<img width="287" alt="image" src="https://user-images.githubusercontent.com/62415768/211762155-a6ac9af5-afd5-445e-bf9c-8d7119daa9de.png"><br>
 
-+-------+
-| Book  |
-+-------+
-| -bookId: int |
-| -title: String |
-| -details: String |
-+-------+
-| +Book(bookId: int, title: String, details: String) |
-+-------+
+
